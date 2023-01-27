@@ -1,0 +1,54 @@
+body {
+font-family: Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#container {
+  width: 40%;
+  height: 50vh;
+  background-color: rgb(245, 252, 157);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 4px solid rgb(61, 60, 60);
+  /* justify-content: space-around; */
+}
+
+#number {
+  font-size: 7rem;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+#increment,
+#decrement {
+  width: 3rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid yellow;
+  background-color: white;
+}
+
+#reset {
+  width: 6rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid yellow;
+  background-color: white;
+}
+
+#reset:hover{
+    background-color: yellow;
+}
+
+#increment:hover{
+    background-color: yellow;
+}
+
+#decrement:hover{
+    background-color: yellow;
+}
